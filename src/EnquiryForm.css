@@ -1,6 +1,6 @@
 .enquiry{
-    background-color:rgb(57, 1, 97);
     margin-top:-25px;
+    align-items: flex-start;
 }
 
 h1{
@@ -16,12 +16,14 @@ h4{
 .form-container{
     margin: 4rem 6rem;
     color: #000000;
+    border:2px solid #000000;
+    background-color: rgb(50, 0, 85);
 }
 
 .form-container form{
     padding-top: 3rem;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 50%;
     margin: auto;
 }
@@ -55,5 +57,11 @@ h4{
         width: 90%;
     }
 
+}
+
+button{
+    width:50%;
+    height:50px;
+    float: right;
 }
 
