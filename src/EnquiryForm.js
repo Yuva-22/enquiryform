@@ -11,12 +11,15 @@ function EnquiryForm() {
             </div>
             <div className="form-container">
               <form>
-                  <h3>Name</h3><input placeholder="Customer Name"/>
-                  <h3>E-mail</h3><input placeholder="abc@gmail.com"/>
-                  <h3>Bill Number</h3><input placeholder="Bill Number"/>
-                  <h3>Phone Number</h3><input placeholder="Phone no."/>
-                  <h3>Customer Enquiry</h3><textarea placeholder="Your Queries..." rows="10"></textarea>
-                  <button>Submit</button>
+                  <h3>Name :</h3><input placeholder="Customer Name"/>
+                  <h3>E-mail :</h3><input placeholder="abc@gmail.com"/>
+                  <h3>Bill Number :</h3><input placeholder="Bill Number"/>
+                  <h3>Phone Number :</h3><input placeholder="Phone no."/>
+                  <h3>Customer Enquiry :</h3><textarea placeholder="Your Queries..." rows="10"></textarea>
+                  <div className="btnclass">
+                    <button>Submit</button>
+                    <button>Reset</button>
+                  </div>
               </form>
             </div>
 
