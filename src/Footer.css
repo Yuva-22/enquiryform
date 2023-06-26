@@ -1,4 +1,7 @@
 .copyrights{
     text-align: center;
     font-size: 15px;
+    border:1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px #e8e8e8;
+    background-color: rgb(50, 0, 85);
 }
